@@ -15,7 +15,7 @@ const Template = (args) => <Button {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
   primary: true,
-  label: 'Button ERICCCC',
+  label: 'Button Hello',
 };
 
 export const Secondary = Template.bind({});
