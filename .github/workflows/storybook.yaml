@@ -15,7 +15,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
         run: |
           npm install
-          npm run deploy-storyboo
+          npm run deploy-storybook
 
       # - name: Deploy 🚀
       #   if: github.ref == 'refs/heads/main'
