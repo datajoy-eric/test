@@ -17,7 +17,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s docs",
-    "build-storybook": "build-storybook -s docs"
+    "build-storybook": "build-storybook -s docs",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +54,7 @@
     "@storybook/addon-links": "^6.3.7",
     "@storybook/node-logger": "^6.3.7",
     "@storybook/preset-create-react-app": "^3.2.0",
-    "@storybook/react": "^6.3.7"
+    "@storybook/react": "^6.3.7",
+    "@storybook/storybook-deployer": "^2.8.10"
   }
 }
